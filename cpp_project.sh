@@ -7,11 +7,11 @@ while getopts ":h" opt; do
             echo "Set up and manage cpp cmake projects."
             echo "Usage:"
             echo "    cpp_project.sh -h"
-            echo "        Display this help message."
+            echo "        Display this [h]elp message."
             echo "    cpp_project.sh new <project-name> <options>"
             echo "        Create a new project with name <project-name>."
             echo "    cpp_project.sh <sub-command> -h"
-            echo "        Show help message for a subcommand."
+            echo "        Show [h]elp message for a subcommand."
             exit 0
             ;;
         \? )
@@ -43,11 +43,11 @@ case "$subcommand" in
                     echo ""
                     echo "Options:"
                     echo "    -u <dependencies-list>"
-                    echo "        Add public dependencies"
+                    echo "        Add p[u]blic dependencies"
                     echo "    -r <dependencies-list>"
-                    echo "        Add private dependencies"
+                    echo "        Add p[r]ivate dependencies"
                     echo "    -i <dependencies-list>"
-                    echo "        Add interface dependencies"
+                    echo "        Add [i]nterface dependencies"
                     echo ""
                     echo "Supported Dependencies:"
                     echo "    opencv eigen sophus ceres boost openmp vc"
