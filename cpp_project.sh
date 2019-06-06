@@ -48,6 +48,9 @@ case "$subcommand" in
                     echo "        Add private dependencies"
                     echo "    -i <dependencies-list>"
                     echo "        Add interface dependencies"
+                    echo ""
+                    echo "Supported Dependencies:"
+                    echo "    opencv eigen sophus ceres boost openmp vc"
                     exit 0
                     ;;
                 \? )
